@@ -1,0 +1,68 @@
+:root{
+    --myColor100: #CAF0F8;
+    --myColor200: #90E0EF;
+    --myColor300: #00B4D8;
+    --myColor400: #0077B6;
+    --myColor500: #03045E;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainWrapper{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: var(--myColor100);
+}
+
+.loginWrapper{
+    width: 40vw;
+    height: 50vh;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row ;
+}
+
+.loginWrapper > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signInWrapper{
+    background-color: #fff;
+    width: 50%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.signUpWrapperShort{
+    background-color: var(--myColor500);
+    width: 50%;
+    height: 100%;
+    border-radius: 0px 20px 20px 0px;
+    transition: .2s;
+}
+
+.signInWrapperShort{
+    background-color: var(--myColor500);
+    width: 50%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+    transition: .2s;
+}
+
+.signUpWrapper{
+    background-color: #fff;
+    width: 50%;
+    height: 100%;
+    border-radius: 0px 20px 20px 0px;
+}
+
